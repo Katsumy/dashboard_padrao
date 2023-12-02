@@ -93,16 +93,16 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="{{route('dashAdmin.roles.index')}}">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+            <span>Roles</span></a>
     </li>
 
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="{{route('dashAdmin.permissoes.index')}}">
             <i class="fas fa-fw fa-table"></i>
-            <span>Tables</span></a>
+            <span>Permissões</span></a>
     </li>
 
     <!-- Divider -->
